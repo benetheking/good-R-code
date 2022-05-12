@@ -44,6 +44,16 @@ install.packages("xts")
 install.packages("car")
 install.packages("pak")
 
+## Benchmarking
+install.packages("microbenchmark")
+install.packages("parallel")
+install.packages("profvis")
+
+## Missing data
+install.packages("Amelia")
+install.packages("naniar")
+
+
 
 beta_hat <- ((t(x)%*%x)^-1)%*%(t(x)%*%y)
 ## SOLVE()!!!
